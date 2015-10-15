@@ -1,0 +1,48 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inbox"
+            android:checked="false"
+            android:icon="@drawable/pngicon"
+            android:title="Inbox" />
+
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@drawable/cat"
+            android:title="starred_string" />
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@drawable/pngicon"
+            android:title="sent_mail_string" />
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@drawable/pngicon"
+            android:title="/draft_string" />
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@drawable/pngicon"
+            android:title="all_mail_string" />
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@drawable/pngicon"
+            android:title="trash_string" />
+        <item
+            android:id="@+id/spam"
+            android:checked="false"
+            android:icon="@drawable/pngicon"
+            android:title="spam_string" />
+
+    </group>
+</menu>
